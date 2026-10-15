@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1A0F1F">
+
+  <meta
+    name="description"
+    content="Soukaina Ait-Mouloud's portfolio. Explore my web development skills, creative projects, and journey in technology."
+  >
+
+  <meta name="author" content="Soukaina Ait-Mouloud">
+
+  <title>Soukaina Ait-Mouloud | Front-End Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Technology icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  >
+
+  <!-- Your existing CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Your existing JavaScript -->
+  <!-- EmailJS library: must load before script.js -->
+<script
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  defer
+></script>
+
+<!-- Your portfolio JavaScript -->
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#home" aria-label="Soukaina home">
+      <span class="brand-icon">♛ S</span>
+      <span>SOUKAINA</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-controls="navLinks"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+   
+<nav class="nav-links" id="navLinks" aria-label="Main navigation">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#languages">Languages</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+
+</nav>
+
+<div class="language-switcher" aria-label="Choose website language">
+  <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+  <button type="button" class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+  <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+</div>
+
+<a class="btn btn-outline nav-cta" href="#contact">
+  Let's Connect ↗
+</a>
+
+</header>
+
+<main>
+
+    <!-- ==================== 1. HOME ==================== -->
+
+    <section class="hero section-shell" id="home">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <p class="intro">
+          Hello, I'm <span class="crown">♛</span>
+        </p>
+
+        <h1>Soukaina<span class="accent">.</span></h1>
+
+        <h2>Aspiring Front-End Developer</h2>
+
+        <p class="hero-subtitle">
+          Computer Science Graduate |
+          Creative Mind | Lifelong Learner
+        </p>
+
+        <p class="hero-description">
+          I love turning ideas into beautiful and meaningful
+          digital experiences. I'm passionate about learning,
+          creating, and building for the web. I'm currently
+          looking for an opportunity to grow my skills and gain
+          professional experience in web development.
+        </p>
+
+<div class="hero-actions">
+
+  <a class="btn btn-primary" href="#projects">
+    View My Projects →
+  </a>
+
+  <a
+    class="btn btn-outline"
+    href="assets/soukaina-cv EN.pdf"
+    download
+  >
+    CV English ↓
+  </a>
+
+  <a
+    class="btn btn-outline"
+    href="assets/soukaina-cv FR.pdf"
+    download
+  >
+    CV Français ↓
+  </a>
+
+</div>
+
+
+        <!-- Social links -->
+
+        <div class="social-links">
+
+          <a
+            href="https://github.com/soukainaaitmouloud"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit my GitHub profile"
+          >
+            ⌘
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/ait-mouloud-soukaina-364b573a6/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit my LinkedIn profile"
+          >
+            in
+          </a>
+
+          <a
+            href="mailto:soukainaaitmouloud59@gmail.com"
+            aria-label="Email me"
+          >
+            ✉
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-art">
+
+        <img
+          src="images/hero-butterfly.png"
+          alt="Artistic hijabi girl with a bow looking at a dreamy sunset city"
+          loading="eager"
+        >
+
+        <span class="floating-note">
+          Dream it<br>
+          Design it<br>
+          Build it ♡
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== 2. ABOUT ME ==================== -->
+
+    <section class="about section-shell" id="about">
+
+      <div class="about-photo-wrap">
+
+        <div class="about-photo">
+
+          <img
+            src="images/soukaina-portrait.png"
+            alt="Soukaina wearing a mauve hijab and dark plum blazer"
+            loading="lazy"
+          >
+
+        </div>
+
+        <span class="photo-caption">
+          a little about me ♡
+        </span>
+
+        <span class="flower-decoration" aria-hidden="true">
+          ✿
+        </span>
+
+      </div>
+
+      <div class="about-content">
+
+        <p class="eyebrow">GET TO KNOW ME</p>
+
+        <h2 class="section-title">
+          About Me <span class="tiny-heart">♥</span>
+        </h2>
+
+        <div class="title-underline"></div>
+
+        <h3>
+          A Dreamer, a Learner,<br>
+          and a Creator
+        </h3>
+
+      <p class="about-description">
+  I completed four years of Computer Science studies at Nanjing University
+  of Posts and Telecommunications (NJUPT) in China, from 2022 to 2026.
+  I'm passionate about web development, design, and technology. I'm looking
+  for an opportunity to apply my knowledge, gain professional experience,
+  and continue learning while contributing to real-world projects.
+</p>
+        <div class="about-details">
+
+          <div class="detail-item">
+
+            <span class="detail-icon">🎓</span>
+
+            <div>
+              <strong>Education</strong>
+              <small>Computer Science — NJUPT, China</small>
+            </div>
+
+          </div>
+
+          <div class="detail-item">
+
+            <span class="detail-icon">📍</span>
+
+            <div>
+              <strong>Location</strong>
+              <small>Morocco</small>
+            </div>
+
+          </div>
+
+          <div class="detail-item">
+
+            <span class="detail-icon">♡</span>
+
+            <div>
+              <strong>Interests</strong>
+              <small>Web Development, Design, Animals</small>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== 3. SKILLS ==================== -->
+
+    <section class="skills section-shell" id="skills">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">MY TECH TOOLKIT</p>
+
+        <h2 class="section-title">
+          My Skills <span class="tiny-heart">♥</span>
+        </h2>
+
+        <p>
+          Technologies I have studied and used in my projects.
+        </p>
+
+      </div>
+
+      <!-- Skill category buttons -->
+
+      <div
+        class="skill-tabs"
+        role="group"
+        aria-label="Skill categories"
+      >
+
+        <button
+          class="skill-tab active"
+          type="button"
+          data-category="frontend"
+          aria-pressed="true"
+        >
+          Frontend
+        </button>
+
+        <button
+          class="skill-tab"
+          type="button"
+          data-category="backend"
+          aria-pressed="false"
+        >
+          Backend
+        </button>
+
+        <button
+          class="skill-tab"
+          type="button"
+          data-category="tools"
+          aria-pressed="false"
+        >
+          Tools
+        </button>
+
+        <button
+          class="skill-tab"
+          type="button"
+          data-category="other"
+          aria-pressed="false"
+        >
+          Programming
+        </button>
+
+      </div>
+
+      <!-- Skill cards -->
+
+      <div class="skill-grid">
+
+        <!-- Frontend -->
+
+        <article
+          class="skill-card"
+          data-skill-category="frontend"
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-html5-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>HTML5</h3>
+          <p class="skill-description">Page structure</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="frontend"
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-css3-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>CSS3</h3>
+          <p class="skill-description">Styling and layouts</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="frontend"
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-javascript-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>JavaScript</h3>
+          <p class="skill-description">Interactive websites</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="frontend"
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-react-original colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>React.js</h3>
+          <p class="skill-description">UI components</p>
+        </article>
+
+
+        <!-- Backend -->
+
+        <article
+          class="skill-card"
+          data-skill-category="backend"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-nodejs-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>Node.js</h3>
+          <p class="skill-description">JavaScript runtime</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="backend"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-express-original"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>Express.js</h3>
+          <p class="skill-description">Backend framework</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="backend"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-mysql-original colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>MySQL</h3>
+          <p class="skill-description">Relational database</p>
+        </article>
+
+
+        <!-- Tools -->
+
+        <article
+          class="skill-card"
+          data-skill-category="tools"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-git-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>Git</h3>
+          <p class="skill-description">Version control</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="tools"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-vscode-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>VS Code</h3>
+          <p class="skill-description">Code editor</p>
+        </article>
+
+
+        <!-- Programming languages -->
+
+        <article
+          class="skill-card"
+          data-skill-category="other"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-python-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>Python</h3>
+          <p class="skill-description">Programming</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="other"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-java-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>Java</h3>
+          <p class="skill-description">Programming</p>
+        </article>
+
+        <article
+          class="skill-card"
+          data-skill-category="other"
+          hidden
+        >
+          <span class="skill-icon">
+            <i
+              class="devicon-cplusplus-plain colored"
+              aria-hidden="true"
+            ></i>
+          </span>
+
+          <h3>C++</h3>
+          <p class="skill-description">Programming</p>
+        </article>
+
+      </div>
+
+    </section>
+    
+    <!-- ==================== LANGUAGES ==================== -->
+
+    <section class="languages section-shell" id="languages">
+
+      <div class="section-heading">
+        <p class="eyebrow">COMMUNICATING WITH THE WORLD</p>
+
+        <h2 class="section-title">
+          My Languages <span class="tiny-heart">♥</span>
+        </h2>
+
+        <p>
+          Languages that connect me with people, cultures, and opportunities.
+        </p>
+      </div>
+
+      <div class="language-grid">
+
+        <article class="language-card">
+          <div class="language-symbol" aria-hidden="true">ع</div>
+          <h3>Arabic</h3>
+          <p>Native</p>
+          <span class="language-level">
+            <span style="width: 100%"></span>
+          </span>
+        </article>
+
+        <article class="language-card">
+          <div class="language-symbol" aria-hidden="true">EN</div>
+          <h3>English</h3>
+          <p>Fluent</p>
+          <span class="language-level">
+            <span style="width: 90%"></span>
+          </span>
+        </article>
+
+        <article class="language-card">
+          <div class="language-symbol" aria-hidden="true">FR</div>
+          <h3>French</h3>
+          <p>Fluent</p>
+          <span class="language-level">
+            <span style="width: 90%"></span>
+          </span>
+        </article>
+
+        <article class="language-card">
+          <div class="language-symbol" aria-hidden="true">中</div>
+          <h3>Chinese (Mandarin)</h3>
+          <p>Basic</p>
+          <span class="language-level">
+            <span style="width: 35%"></span>
+          </span>
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==================== 4. PROJECTS ==================== -->
+
+    <section class="projects section-shell" id="projects">
+
+      <div class="section-heading projects-heading">
+
+        <div>
+
+          <p class="eyebrow">A FEW THINGS I'VE CREATED</p>
+
+          <h2 class="section-title">
+            My Projects <span class="tiny-heart">♥</span>
+          </h2>
+
+        </div>
+
+        <a
+          class="btn btn-outline"
+          href="https://github.com/soukainaaitmouloud"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View GitHub ↗
+        </a>
+
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Project 1: Flightly -->
+
+        <article class="project-card">
+
+          <div
+            class="project-art flight-art"
+            role="img"
+            aria-label="Airplane at sunset"
+          >
+            <span aria-hidden="true">✈</span>
+          </div>
+
+          <div class="project-info">
+
+            <h3>Flightly</h3>
+
+            <p>Flight Booking Website</p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a
+              href="https://github.com/soukainaaitmouloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GitHub to find my Flightly project"
+            >
+              ↗
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- Project 2: Memory Galaxy -->
+
+        <article class="project-card">
+
+          <div
+            class="project-art galaxy-art"
+            role="img"
+            aria-label="Dreamy galaxy with stars and a crescent moon"
+          >
+            <span aria-hidden="true">✦</span>
+            <span aria-hidden="true">☾</span>
+            <span aria-hidden="true">✧</span>
+          </div>
+
+          <div class="project-info">
+
+            <h3>Memory Galaxy</h3>
+
+            <p>Interactive Memory Game</p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a
+              href="https://github.com/soukainaaitmouloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GitHub to find my Memory Galaxy project"
+            >
+              ↗
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- Project 3: TraceDonate -->
+
+        <article class="project-card">
+
+          <div
+            class="project-art trust-art"
+            role="img"
+            aria-label="Heart symbolizing humanitarian aid"
+          >
+            <span aria-hidden="true">♡</span>
+          </div>
+
+          <div class="project-info">
+
+            <h3>TraceDonate</h3>
+
+            <p>Transparent Humanitarian Aid Platform</p>
+
+            <div class="tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MySQL</span>
+            </div>
+
+            <a
+              href="https://github.com/soukainaaitmouloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GitHub to find my TraceDonate project"
+            >
+              ↗
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== 5. CONTACT ==================== -->
+
+    <section class="contact section-shell" id="contact">
+
+      <div class="contact-copy">
+
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+        <h2 class="section-title">
+          Let's Connect <span class="tiny-heart">♥</span>
+        </h2>
+
+        <p>
+          I'm open to internship opportunities, collaborations,
+          and interesting conversations. Feel free to contact me!
+        </p>
+
+        <a href="mailto:soukainaaitmouloud59@gmail.com">
+          ✉ &nbsp; soukainaaitmouloud59@gmail.com
+        </a>
+
+        <p class="contact-location">
+          ⌖ &nbsp; Morocco
+        </p>
+
+        <p class="contact-note">
+          Good ideas build better futures ♡
+        </p>
+
+      </div>
+
+     <!-- Contact form: sends messages through EmailJS -->
+
+      <form class="contact-form" id="contactForm">
+
+        <label class="sr-only" for="contactName">
+          Your name
+        </label>
+
+        <input
+          id="contactName"
+          name="name"
+          type="text"
+          placeholder="Your Name"
+          autocomplete="name"
+          required
+        >
+
+        <label class="sr-only" for="contactEmail">
+          Your email
+        </label>
+
+        <input
+          id="contactEmail"
+          name="email"
+          type="email"
+          placeholder="Your Email"
+          autocomplete="email"
+          required
+        >
+
+        <label class="sr-only" for="contactMessage">
+          Your message
+        </label>
+
+        <textarea
+          id="contactMessage"
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button class="btn btn-primary" type="submit">
+          Send Message →
+        </button>
+
+        
+<p class="form-note" id="formNote" role="status" aria-live="polite">
+  Send me a message directly through this form. ♡
+</p>
+
+
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==================== 6. FOOTER ==================== -->
+
+  <footer class="footer">
+
+    <a class="footer-brand" href="#home">
+      <span>♛ S</span>
+      <strong>SOUKAINA</strong>
+    </a>
+
+    <p>Good Ideas Build Better Futures ♡</p>
+
+    <nav aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-socials">
+
+      <a
+        href="https://github.com/soukainaaitmouloud"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        ⌘
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/ait-mouloud-soukaina-364b573a6/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        in
+      </a>
+
+      <a
+        href="mailto:soukainaaitmouloud59@gmail.com"
+        aria-label="Email"
+      >
+        ✉
+      </a>
+
+    </div>
+
+    <small>
+      © <span id="currentYear">2026</span> Soukaina. All rights reserved.
+    </small>
+
+    <a class="back-to-top" href="#home" aria-label="Back to top">
+      ↑
+    </a>
+
+  </footer>
+
+
+  <!-- ==================== SKILLS TABS FALLBACK ==================== -->
+  <!-- Keep this script: it works even if script.js fails to load. -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tabs = document.querySelectorAll(".skill-tab");
+      const cards = document.querySelectorAll(".skill-card");
+
+      function showSkills(category) {
+        tabs.forEach(function (tab) {
+          const isActive = tab.dataset.category === category;
+
+          tab.classList.toggle("active", isActive);
+          tab.setAttribute("aria-pressed", String(isActive));
+        });
+
+        cards.forEach(function (card) {
+          const shouldShow =
+            card.dataset.skillCategory === category;
+
+          card.hidden = !shouldShow;
+          card.style.display = shouldShow ? "" : "none";
+        });
+      }
+
+      tabs.forEach(function (tab) {
+        tab.addEventListener("click", function () {
+          showSkills(tab.dataset.category);
+        });
+      });
+
+      // Show Frontend skills when the page first opens.
+      showSkills("frontend");
+
+      // Automatically update the copyright year.
+      const yearElement = document.getElementById("currentYear");
+
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+
+</body>
+</html>
